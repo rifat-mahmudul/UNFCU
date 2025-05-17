@@ -44,7 +44,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <p className="text-[#1D3F59] mb-8 max-w-lg mx-auto">
+        <p className="text-[#1D3F59] mb-8 max-w-[480px] mx-auto">
           Start the search for your next home, a vacation home, or an investment property knowing how much you can
           afford. Your free UNFCU pre-approval carries no obligation.
         </p>
