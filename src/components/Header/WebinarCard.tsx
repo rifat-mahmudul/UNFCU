@@ -4,15 +4,15 @@ import Link from "next/link";
 export default function WebinarCard() {
   return (
     <div className="bg-[#f8f9fb] pb-16">
-      <div className="container mx-auto p-12 lg:p-24 max-w-4xl bg-white">
-        <div className="flex flex-col md:flex-row items-start gap-6">
+      <div className="container mx-auto md:p-16 lg:p-16 max-w-4xl bg-white px-5 md:px-0 py-16">
+        <div className="flex flex-col md:flex-row items-start gap-4 max-w-[700px] mx-auto">
           <div className="flex-shrink-0">
-            <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
+            <div>
               <Image
               src={'/light.png'}
               alt="light"
-              height={24}
-              width={24}
+              height={20}
+              width={20}
               />
             </div>
           </div>

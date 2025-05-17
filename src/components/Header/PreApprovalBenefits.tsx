@@ -3,13 +3,13 @@ import Image from "next/image";
 export default function PreApprovalBenefits() {
   return (
     <div className="bg-[#f8f9fb]">
-      <div className="container mx-auto px-16 py-16 max-w-4xl">
-        <h2 className="text-2xl lg:text-3xl font-medium text-[#1d3f59] mb-5 text-center">
+      <div className="mx-auto py-16 max-w-[700px] px-5 md:px-0">
+        <h2 className="text-2xl lg:text-3xl font-medium text-[#1d3f59] mb-5 md:ml-12">
           With a UNIFI-CU pre-approval, you can:
         </h2>
 
         <div className="space-y-8">
-          <div className="flex items-start gap-3">
+          <div className="flex flex-col md:flex-row items-start gap-3">
             <div>
               <Image src={"/clock.png"} alt="clock" height={40} width={40} />
             </div>
@@ -23,7 +23,7 @@ export default function PreApprovalBenefits() {
             </div>
           </div>
 
-          <div className="flex items-start gap-3">
+          <div className="flex flex-col md:flex-row items-start gap-3">
             <div>
               <Image src={"/carv.png"} alt="clock" height={40} width={40} />
             </div>
@@ -39,7 +39,7 @@ export default function PreApprovalBenefits() {
             </div>
           </div>
 
-          <div className="flex items-start gap-3">
+          <div className="flex flex-col md:flex-row items-start gap-3">
             <div>
               <Image src={"/list.png"} alt="clock" height={40} width={40} />
             </div>
