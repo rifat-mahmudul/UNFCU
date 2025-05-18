@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function PreApprovalBenefits() {
   return (
-    <div className="bg-[#f8f9fb]">
-      <div className="mx-auto py-16 max-w-[700px] px-5 md:px-0">
+    <div className="">
+      <div className="mx-auto py-16 max-w-[750px] px-5 md:px-[50px] bg-[#f8f9fb]">
         <h2 className="text-2xl lg:text-3xl font-medium text-[#1d3f59] mb-5 md:ml-12">
           With a UNIFICU pre-approval, you can:
         </h2>

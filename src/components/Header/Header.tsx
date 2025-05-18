@@ -3,7 +3,7 @@ import Image from "next/image"
 const Header = () => {
   return (
     <div
-    className="h-24 flex flex-col justify-center bg-[#f8f9fb]"
+    className="h-24 flex flex-col justify-center max-w-[750px] mx-auto bg-white"
     >
         <Image
         src={'/logo.png'}

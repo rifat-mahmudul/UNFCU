@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function WebinarCard() {
   return (
-    <div className="bg-[#f8f9fb] pb-16">
-      <div className="container mx-auto md:p-16 lg:p-16 max-w-4xl bg-white px-5 md:px-0 py-16">
-        <div className="flex flex-col md:flex-row items-start gap-4 max-w-[700px] mx-auto">
+    <div className="">
+      <div className="container mx-auto max-w-[750px] px-0 md:px-8 pb-16 bg-[#f8f9fb]">
+        <div className="flex flex-col md:flex-row px-5 md:px-[30px] items-start gap-4 mx-auto bg-white py-6 md:py-16">
           <div className="flex-shrink-0">
             <div>
               <Image

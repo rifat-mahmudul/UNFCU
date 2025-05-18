@@ -2,8 +2,8 @@ import { ArrowRight } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#226bdb]">
-      <div className="container mx-auto py-16 max-w-[700px] px-5 md:px-0">
+    <div className="">
+      <div className="container mx-auto py-16 max-w-[750px] px-5 md:px-[50px] bg-[#226bdb]">
         <h2 className="text-white text-2xl md:text-3xl font-normal mb-3">
           Receive your free pre-approval
         </h2>

@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react"
 
 export default function Hero() {
   return (
-    <main className="bg-[#eef2f6]">
-      <div className="mx-auto py-16 max-w-[700px] text-center px-5 md:px-0">
+    <main className="">
+      <div className="mx-auto py-16 max-w-[750px] text-center px-5 md:px-[50px] bg-[#eef2f6]">
         <p className="text-[#2E766F] mb-4 font-medium">US Mortgages</p>
 
         <h1 className="text-2xl md:text-5xl font-normal text-[#1D3F59] mb-12 leading-tight">
